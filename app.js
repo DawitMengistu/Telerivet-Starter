@@ -1,5 +1,5 @@
-const API_KEY = "CHl9p_avxkvoYGO9rtfmho4VLt4MXfBLZIra";
-const PROJECT_ID = "PJ63b1525fb9e2a739";
+const API_KEY = "";
+const PROJECT_ID = "";
 var telerivet = require('telerivet');
 
 function sendSingleMessage(phone, message) {
@@ -47,4 +47,4 @@ async function checkGatewayStatus() {
     });
 
   }
-sendSingleMessage("+251903035284", "Hello World");
+sendSingleMessage("+123456789", "Hello World");
